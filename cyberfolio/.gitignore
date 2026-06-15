@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+.npm
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Next.js
+frontend/.next/
+frontend/out/
+
+# Build outputs
+backend/dist/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Uploads (don't commit user files)
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# SSL certificates (never commit)
+nginx/ssl/*.pem
+nginx/ssl/*.key
+nginx/ssl/*.crt
+
+# Docker
+.dockerignore
